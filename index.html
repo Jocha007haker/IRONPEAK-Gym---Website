@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="IronPeak Gym — Transforma tu cuerpo, transforma tu vida. Planes, clases y entrenadores de élite."/>
+  <title>IronPeak Gym — Fitness de Alto Rendimiento</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="logo"><i class="fa-solid fa-dumbbell"></i> IronPeak</a>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#inicio" class="nav__link">Inicio</a></li>
+        <li><a href="#clases" class="nav__link">Clases</a></li>
+        <li><a href="#planes" class="nav__link">Planes</a></li>
+        <li><a href="#entrenadores" class="nav__link">Equipo</a></li>
+        <li><a href="#contacto" class="nav__link">Contacto</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="#planes" class="btn btn--primary">Únete ahora</a>
+        <button class="nav__toggle" id="nav-toggle"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg"></div>
+    <div class="container hero__content">
+      <span class="hero__eyebrow">🏆 #1 Gym de la ciudad</span>
+      <h1 class="hero__title">No te <span>limites.</span><br/>Supera tus límites.</h1>
+      <p>Equipos de última generación, entrenadores certificados y una comunidad que te impulsa cada día. Tu mejor versión empieza aquí.</p>
+      <div class="hero__btns">
+        <a href="#planes" class="btn btn--primary btn--lg">Ver planes desde $29</a>
+        <a href="#clases" class="btn btn--ghost btn--lg">Ver clases gratuitas</a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat"><strong>2,500+</strong><span>Miembros activos</span></div>
+        <div class="stat"><strong>45+</strong><span>Clases semanales</span></div>
+        <div class="stat"><strong>15</strong><span>Entrenadores elite</span></div>
+        <div class="stat"><strong>8</strong><span>Años de experiencia</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLASES -->
+  <section class="section" id="clases">
+    <div class="container">
+      <div class="section__header">
+        <span class="tag">Nuestras Clases</span>
+        <h2>Entrena como <span class="accent">un profesional</span></h2>
+        <p>Clases grupales e individuales para todos los niveles. Desde principiantes hasta atletas de alto rendimiento.</p>
+      </div>
+      <div class="classes__grid">
+        <div class="class-card class-card--featured">
+          <div class="class-card__icon">🥊</div>
+          <h3>CrossFit</h3>
+          <p>Entrenamiento funcional de alta intensidad. Mejora fuerza, resistencia y agilidad al mismo tiempo.</p>
+          <div class="class-card__meta">
+            <span><i class="fa-regular fa-clock"></i> 60 min</span>
+            <span><i class="fa-solid fa-fire"></i> Alta intensidad</span>
+          </div>
+          <a href="#" class="btn btn--sm">Ver horarios</a>
+        </div>
+        <div class="class-card">
+          <div class="class-card__icon">🧘</div>
+          <h3>Yoga & Pilates</h3>
+          <p>Flexibilidad, equilibrio y bienestar mental. El complemento perfecto para cualquier rutina.</p>
+          <div class="class-card__meta">
+            <span><i class="fa-regular fa-clock"></i> 45 min</span>
+            <span><i class="fa-solid fa-fire"></i> Baja intensidad</span>
+          </div>
+          <a href="#" class="btn btn--sm">Ver horarios</a>
+        </div>
+        <div class="class-card">
+          <div class="class-card__icon">🚴</div>
+          <h3>Spinning</h3>
+          <p>Cardio de alto impacto con música y motivación. Quema hasta 700 calorías por sesión.</p>
+          <div class="class-card__meta">
+            <span><i class="fa-regular fa-clock"></i> 45 min</span>
+            <span><i class="fa-solid fa-fire"></i> Media-alta</span>
+          </div>
+          <a href="#" class="btn btn--sm">Ver horarios</a>
+        </div>
+        <div class="class-card">
+          <div class="class-card__icon">🥋</div>
+          <h3>MMA / Boxeo</h3>
+          <p>Artes marciales mixtas para defensa personal y competencia. Para todos los niveles.</p>
+          <div class="class-card__meta">
+            <span><i class="fa-regular fa-clock"></i> 60 min</span>
+            <span><i class="fa-solid fa-fire"></i> Alta intensidad</span>
+          </div>
+          <a href="#" class="btn btn--sm">Ver horarios</a>
+        </div>
+        <div class="class-card">
+          <div class="class-card__icon">🏋️</div>
+          <h3>Musculación</h3>
+          <p>Sala de pesas libre con más de 200 equipos. Rutinas personalizadas con tu entrenador.</p>
+          <div class="class-card__meta">
+            <span><i class="fa-regular fa-clock"></i> Libre</span>
+            <span><i class="fa-solid fa-fire"></i> Variable</span>
+          </div>
+          <a href="#" class="btn btn--sm">Ver horarios</a>
+        </div>
+        <div class="class-card">
+          <div class="class-card__icon">💃</div>
+          <h3>Zumba</h3>
+          <p>Baila mientras te pones en forma. La clase más divertida y social del gym.</p>
+          <div class="class-card__meta">
+            <span><i class="fa-regular fa-clock"></i> 50 min</span>
+            <span><i class="fa-solid fa-fire"></i> Media</span>
+          </div>
+          <a href="#" class="btn btn--sm">Ver horarios</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANES -->
+  <section class="section plans" id="planes">
+    <div class="container">
+      <div class="section__header">
+        <span class="tag">Membresías</span>
+        <h2>Elige tu <span class="accent">plan perfecto</span></h2>
+        <p>Sin contratos de permanencia. Cancela cuando quieras.</p>
+      </div>
+      <div class="plans__grid">
+        <div class="plan-card">
+          <div class="plan-card__header">
+            <h3>Básico</h3>
+            <div class="plan-card__price"><span>$29</span>/mes</div>
+          </div>
+          <ul class="plan-card__features">
+            <li><i class="fa-solid fa-check"></i> Acceso sala de pesas</li>
+            <li><i class="fa-solid fa-check"></i> 2 clases grupales/semana</li>
+            <li><i class="fa-solid fa-check"></i> Vestuarios y duchas</li>
+            <li><i class="fa-solid fa-check"></i> App de seguimiento</li>
+            <li class="disabled"><i class="fa-solid fa-xmark"></i> Entrenador personal</li>
+            <li class="disabled"><i class="fa-solid fa-xmark"></i> Clases ilimitadas</li>
+          </ul>
+          <a href="#contacto" class="btn btn--outline btn--full">Empezar</a>
+        </div>
+        <div class="plan-card plan-card--featured">
+          <div class="plan-card__badge">Más popular</div>
+          <div class="plan-card__header">
+            <h3>Pro</h3>
+            <div class="plan-card__price"><span>$59</span>/mes</div>
+          </div>
+          <ul class="plan-card__features">
+            <li><i class="fa-solid fa-check"></i> Acceso ilimitado</li>
+            <li><i class="fa-solid fa-check"></i> Clases grupales ilimitadas</li>
+            <li><i class="fa-solid fa-check"></i> 2 sesiones/mes con PT</li>
+            <li><i class="fa-solid fa-check"></i> Plan nutricional básico</li>
+            <li><i class="fa-solid fa-check"></i> App premium + estadísticas</li>
+            <li class="disabled"><i class="fa-solid fa-xmark"></i> PT ilimitado</li>
+          </ul>
+          <a href="#contacto" class="btn btn--primary btn--full">Empezar</a>
+        </div>
+        <div class="plan-card">
+          <div class="plan-card__header">
+            <h3>Elite</h3>
+            <div class="plan-card__price"><span>$99</span>/mes</div>
+          </div>
+          <ul class="plan-card__features">
+            <li><i class="fa-solid fa-check"></i> Todo lo del plan Pro</li>
+            <li><i class="fa-solid fa-check"></i> PT ilimitado</li>
+            <li><i class="fa-solid fa-check"></i> Plan nutricional completo</li>
+            <li><i class="fa-solid fa-check"></i> Acceso 24/7</li>
+            <li><i class="fa-solid fa-check"></i> Zona VIP y spa</li>
+            <li><i class="fa-solid fa-check"></i> Análisis corporal mensual</li>
+          </ul>
+          <a href="#contacto" class="btn btn--outline btn--full">Empezar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAINERS -->
+  <section class="section" id="entrenadores">
+    <div class="container">
+      <div class="section__header">
+        <span class="tag">Nuestro Equipo</span>
+        <h2>Entrenadores <span class="accent">certificados</span></h2>
+      </div>
+      <div class="trainers__grid">
+        <div class="trainer-card">
+          <div class="trainer-card__avatar">💪</div>
+          <h3>Carlos Vega</h3>
+          <span>CrossFit & Funcional</span>
+          <p>Certificado NSCA. 8 años de experiencia. Campeón regional de CrossFit 2023.</p>
+          <div class="trainer-card__social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="trainer-card">
+          <div class="trainer-card__avatar" style="background:var(--red)">🧘</div>
+          <h3>Sofía Martínez</h3>
+          <span>Yoga & Bienestar</span>
+          <p>Instructora certificada RYT-500. Especialista en yoga terapéutico y mindfulness.</p>
+          <div class="trainer-card__social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="trainer-card">
+          <div class="trainer-card__avatar" style="background:#10b981">🥊</div>
+          <h3>Diego Torres</h3>
+          <span>MMA & Boxeo</span>
+          <p>Ex-peleador profesional. Cinturón negro en jiu-jitsu. Entrenador de campeones nacionales.</p>
+          <div class="trainer-card__social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="trainer-card">
+          <div class="trainer-card__avatar" style="background:#f59e0b">🏋️</div>
+          <h3>Laura Jiménez</h3>
+          <span>Musculación & Nutrición</span>
+          <p>Licenciada en Ciencias del Deporte. Especialista en hipertrofia y pérdida de grasa.</p>
+          <div class="trainer-card__social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / CTA -->
+  <section class="section cta-section" id="contacto">
+    <div class="container">
+      <div class="cta-grid">
+        <div class="cta-content">
+          <span class="tag">¿Listo para empezar?</span>
+          <h2>Tu primer mes <span class="accent">gratis</span></h2>
+          <p>Rellena el formulario y un entrenador te contactará en menos de 24 horas para diseñar tu plan personalizado.</p>
+          <div class="cta-features">
+            <div><i class="fa-solid fa-check-circle"></i> Sin permanencia mínima</div>
+            <div><i class="fa-solid fa-check-circle"></i> Evaluación física gratis</div>
+            <div><i class="fa-solid fa-check-circle"></i> Primer mes sin costo</div>
+          </div>
+        </div>
+        <form class="cta-form" id="gym-form">
+          <input type="text" placeholder="Tu nombre" required />
+          <input type="email" placeholder="Tu email" required />
+          <input type="tel" placeholder="Teléfono" />
+          <select>
+            <option value="">¿Cuál es tu objetivo?</option>
+            <option>Perder peso</option>
+            <option>Ganar músculo</option>
+            <option>Mejorar resistencia</option>
+            <option>Salud general</option>
+          </select>
+          <button type="submit" class="btn btn--primary btn--lg btn--full">
+            Quiero mi mes gratis <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="logo"><i class="fa-solid fa-dumbbell"></i> IronPeak</a>
+        <p>Transforma tu cuerpo, transforma tu vida.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#inicio">Inicio</a>
+        <a href="#clases">Clases</a>
+        <a href="#planes">Planes</a>
+        <a href="#entrenadores">Equipo</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div class="footer__social">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+    <p class="footer__copy">© 2026 IronPeak Gym. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    const header = document.getElementById('header')
+    window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 50))
+    document.getElementById('nav-toggle').addEventListener('click', () => document.getElementById('nav-menu').classList.toggle('open'))
+    document.getElementById('gym-form').addEventListener('submit', e => {
+      e.preventDefault()
+      e.target.innerHTML = '<div class="success-msg"><i class="fa-solid fa-circle-check"></i><h3>¡Solicitud enviada!</h3><p>Te contactaremos en menos de 24h.</p></div>'
+    })
+  </script>
+</body>
+</html>
